@@ -1,0 +1,25 @@
+# Node modules
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+
+# Cypress screenshots and videos
+cypress/screenshots/
+cypress/videos/
+
+# Optional npm cache directory
+.npm
+
+# Environment settings
+.env
+cypress.env.json
+
+# Temporary files
+*.tmp
+*.swp
+
+# Excel files
+*.xlsx

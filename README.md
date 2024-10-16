@@ -9,7 +9,6 @@ This project implements a complete **QA Automation Engineer – Home Assignment*
 - [Installation](#installation)
 - [Testing with Cypress](#testing-with-cypress)
 - [Defect Log](#defect-log)
-- [Project Structure](#project-structure)
 
 ---
 
@@ -31,11 +30,6 @@ Make sure you have the following installed on your machine:
 
 1. npm install
 
-## Installing and running cypress
-
-1. npm install cypress --save-dev
-2. npx cypress open
-
 
 ## Defect Log
 
@@ -53,17 +47,4 @@ It contains details about any issues encountered, including:
 7. Environment : Deatils of the Browser, OS, Environment and User  
 6. Status: Open, In Progress, or Closed.
 
-
-## Project Structure 
-
-TakeHomeTest/
-│
-├── cypress/            # Cypress tests and configurations
-├── node_modules/       # Dependencies installed via npm
-├── package.json        # Project metadata and dependencies
-├── package-lock.json   # Exact versions of installed dependencies
-├── webpack.config.js   # Webpack configuration for bundling
-├── cypress.config.js   # Configuration for Cypress tests
-├── cypress.env.json    # Environment variables for Cypress tests
-└── Defect Log.xlsx     # Defect tracking log
 
